@@ -2,7 +2,9 @@
 Dax and Measure use daily bases
 
 ## Date Table
-'''
+
+```
+
 Date =
 VAR StartDate =
     DATE ( YEAR ( MIN ( 'Transaction'[Order Date] ) ), 1, 1 )
@@ -19,4 +21,4 @@ RETURN
         "Month Year", FORMAT ( [Date], "mmmm yyyy" )
     )
     
-'''
+```
